@@ -10,7 +10,7 @@ git clone https://github.com/cleongh/plantillaphaser
 
 Podemos modificar el archivo `package.json` para configurar nuestro proyecto (nombre, autor...)
 
-Para iniciar el proyecto (sólo 1 vez) instalamos las dependencias (`parcel`, `phaser`):
+Para iniciar el proyecto (sólo 1 vez) instalamos las dependencias (`vite`, `phaser`):
 
 ```
 npm install
