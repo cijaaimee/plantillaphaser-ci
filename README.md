@@ -18,7 +18,7 @@ npm install
 
 ## Uso
 
-Cada vez que queramos usarlo, tenemos que arrancar el servidor de desarrollo que monitorizará los cambios, procesará el contenido y cambiará la página. Usa [Parcel](https://parceljs.org/).
+Cada vez que queramos usarlo, tenemos que arrancar el servidor de desarrollo que monitorizará los cambios, procesará el contenido y cambiará la página. Usa [Vite](https://vitejs.dev/).
 
 Para arrancar el servidor de desarrollo:
 
@@ -26,11 +26,11 @@ Para arrancar el servidor de desarrollo:
 npm start
 ```
 
-Con esto, solo tenemos que programar y guardar los archivos, Parcel se encargará del resto.
+Con esto, solo tenemos que programar y guardar los archivos, Vite se encargará del resto.
 
 ## Distribución
 
-Cuando queramos publicar el juego, podemos crear una *build* de *release*. Parcel optimizará los archivos y, con la configuración que hay en `package.json`, generará en la carpeta `docs/` una versión "pública" de nuestro proyecto.
+Cuando queramos publicar el juego, podemos crear una *build* de *release*. Vite optimizará los archivos y, con la configuración que hay en `package.json`, generará en la carpeta `docs/` una versión "pública" de nuestro proyecto.
 
 ```
 npm run build
@@ -46,4 +46,4 @@ En la carpeta `.vscode/` hay una configuración para usar Visual Studio Code, ta
 
 ## TypeScript
 
-TypeScript está automáticamente habilitado (gracias a Parcel). Para usarlo, simplemente hay que crear archivos con extensión `.ts`.
+TypeScript está automáticamente habilitado (gracias a Vite). Para usarlo, simplemente hay que crear archivos con extensión `.ts`.

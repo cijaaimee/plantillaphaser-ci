@@ -104,8 +104,7 @@ dist
 .tern-port
 
 
-.parcel-cache
-
+.DS_Store
+docs/*
 .~
 src/star.ts~
-/.parcelrc~
